@@ -1,0 +1,64 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900 !important;
+}
+
+ul li{
+    list-style: none;
+    padding: 0;
+}
+
+li p{
+    display: inline-flex !important;
+}
+
+li:hover{
+    background-color: whitesmoke;
+}
+
+input{
+    background-color: lightgray !important;
+    outline: none !important;
+}
+
+.completed .task{
+    /* display: inline-block; */
+    text-decoration: line-through !important;
+}
+
+.completed{
+    background-color: beige !important;
+}
+
+.incoming{
+    background-color: lightgreen !important;
+}
+
+.outgoing{
+    background-color: lightcoral !important;
+}
+
+.danger{
+    display: none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    box-shadow: none !important;
+}
